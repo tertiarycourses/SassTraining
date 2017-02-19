@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Barrio|Pangolin");
+.container h2 {
+  color: #D14348;
+  font-family: "Pangolin", "Helvetica", san-serif; }
+.container p {
+  color: #0076A3;
+  font-family: "Barrio", "Helvetica", san-serif; }
+
+body {
+  background-color: #EEE8D6; }
+
+h2 {
+  color: #0076A3;
+  font-family: "Barrio", "Helvetica", san-serif; }
+
+p {
+  color: #D14348;
+  font-family: "Pangolin", "Helvetica", san-serif; }
+
+/*# sourceMappingURL=style.css.map */

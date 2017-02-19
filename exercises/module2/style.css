@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Barrio|Pangolin");
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  nav ul li {
+    padding: 10px 5px; }
+    nav ul li a {
+      text-decoration: none;
+      padding: 10px 5px;
+      color: #022933; }
+      nav ul li a:hover {
+        color: #FFBA00; }
+
+.sec_para {
+  color: green; }
+
+.sec_para {
+  font-size: 20px; }
+
+.btn-default, .btn-hot, .btn-cool {
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  user-select: none;
+  color: #EEE8D6; }
+
+.btn-default {
+  background: #022933; }
+
+.btn-hot {
+  background: #D14348; }
+
+.btn-cool {
+  background: #0076A3; }
+
+.container h2 {
+  color: #D14348;
+  font-family: "Pangolin", "Helvetica", san-serif; }
+
+/*# sourceMappingURL=style.css.map */

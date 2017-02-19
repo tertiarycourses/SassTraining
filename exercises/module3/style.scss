@@ -1,0 +1,39 @@
+@import "variables.scss";
+@import "functions.scss";
+@import "mixins.scss";
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	// ul {
+	// 	padding-left: adjust_width(5);
+	// }
+	ul {
+		padding-left: adjust_width(5,20);
+	}
+	// h2 {
+	// 	padding-left: adjust_width();
+	// }
+	//@include element;
+	//@include element($red);
+	//@include element;
+	// @include element($red,$blue);
+	//@include element($color-list...);
+	// @include element2 {
+	// 	ul {
+	// 		li {
+	// 			color:red;
+	// 		}
+	// 	}
+	// }
+	//@include backImage("water.jpg",600px);
+	// @include backImage {
+	//   background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.2)),url("water.jpg");
+	//   height: 600px;
+	//   background-repeat: no-repeat;
+	//   background-position: center center;
+	// }
+}
+
+

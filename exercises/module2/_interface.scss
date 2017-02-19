@@ -1,0 +1,43 @@
+$color-btn-text: $color-backgrounds;
+$color-btn-default: $color-main;
+$color-btn-hot: $red;
+$color-btn-cool:$blue;
+
+$roundness: 20px 0 20px 0;
+
+%frst_para {
+   color: green;
+}
+
+.sec_para {
+   @extend %frst_para;
+   font-size:20px;
+}
+
+%btn {
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	user-select: none;
+	color: $color-btn-text;
+}
+
+.btn-default {
+	@extend %btn;
+	background: $color-btn-default;
+}
+
+.btn-hot {
+	@extend %btn;
+	background: $color-btn-hot;
+}
+
+.btn-cool {
+	@extend %btn;
+	background: $color-btn-cool;
+}

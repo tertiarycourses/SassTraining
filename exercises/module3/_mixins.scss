@@ -1,0 +1,35 @@
+// @mixin element {
+// 	h1 {
+// 		color: $blue;
+// 		}
+// 	}
+
+// @mixin element($color:$blue) {
+// 	h1 {
+// 		color: $color;
+// 		}
+// 	}
+
+// @mixin element($color...) {
+// 	h1 {
+// 		color: nth($color,1);
+// 		}
+// 	h2 {
+// 		color: nth($color,2);
+// 		}
+// 	}
+
+// @mixin element2 {
+// 	@content;
+// }
+
+// @mixin backImage($image,$height: 100vh) {
+//   background: url($image);
+//   height: $height;
+// }
+
+@mixin backImage {
+	@content;
+}
+
+

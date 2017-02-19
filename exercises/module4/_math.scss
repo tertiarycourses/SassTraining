@@ -1,0 +1,20 @@
+@import 'mixin.scss';
+
+$size: 10px;
+
+h3 {font-size: $size; }
+h2 {font-size: $size*2; }
+h1 {font-size: $size*3; }
+
+// Exercise
+.grid {
+	.item {
+		float: left;
+		@include imagegrid(5,0.5%);
+	}
+	img {
+		display: block;
+		border-radius: 30px;
+		max-width: 100%;
+	}
+}

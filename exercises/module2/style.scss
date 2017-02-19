@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "nav.scss";
+@import "interface.scss";
+
+$font1: 	'Pangolin','Helvetica',san-serif;
+$font2:		'Barrio', 'Helvetica', san-serif;
+
+.container {
+
+	h2 {
+	color: $red;
+	font-family: $font1;
+	}
+	// p {
+	// color: $blue;
+	// font-family: $font2;
+	// &:hover {
+	// 	color:$red;
+	// 	}
+	// }
+
+}

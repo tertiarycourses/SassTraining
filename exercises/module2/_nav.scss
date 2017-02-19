@@ -1,0 +1,44 @@
+nav {
+
+	// ul {
+	// 	list-style: none;
+	// 	margin: 0;
+	// 	padding: 0;
+	// }
+
+	// ul li {
+	// 	padding: 10px 5px;
+	// }
+
+	// ul li a {
+	// 	text-decoration: none;
+	// 	padding: 10px 5px;
+	// 	color: $darkblue;
+
+	// 	&:hover {			
+	// 		color: $yellow;
+	// 	}
+
+	// }
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			padding: 10px 5px;
+			   a {
+				text-decoration: none;
+				padding: 10px 5px;
+				color: $darkblue;
+
+				&:hover {			
+					color: $yellow;
+				}
+			}
+		}
+
+	}
+
+
+}

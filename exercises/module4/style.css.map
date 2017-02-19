@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,QAAS;EACR,KAAK,ECIO,OAAO;;ADCnB,QAAS;EACT,KAAK,ECLO,OAAO;;ADUnB,QAAS;EACT,KAAK,EAAE,OAAU",
+"sources": ["_color.scss","_variables.scss"],
+"names": [],
+"file": "style.css"
+}

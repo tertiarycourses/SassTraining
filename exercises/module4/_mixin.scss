@@ -1,0 +1,4 @@
+@mixin imagegrid($qty, $padding) {
+	width: (100%-($qty * $padding))/$qty;
+	padding: $padding;
+}

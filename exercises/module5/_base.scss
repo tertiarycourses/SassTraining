@@ -1,0 +1,39 @@
+$color-headlines: $blue, $purple, $green,
+  $red, $orange, $yellow;
+
+$header: (
+	$blue: 20px,
+	$purple: 25px,
+	$green: 30px,
+	$red: 35px,
+	$orange: 40px,
+	$yellow: 45px);
+
+// @for $item from 1 through length($color-headlines) {
+//   h#{$item} {
+//     color: nth($color-headlines, $item);
+//   }
+// }
+
+// $i: 1;
+// @each $item in $color-headlines {
+// 	h#{$i} {
+//     color: $item;
+//     $i: $i+1;
+//   }
+// }
+
+// $i:1;
+// @each $key,$value in $header {
+// 	h#{$i}  {
+// 		color: $key;
+// 		font-size: $value;
+// 	}
+// 	$i: $i+1;
+// }
+
+$i: 60;
+@while $i > 0 {
+   h#{$i/10} { padding-left: 1px * $i; }
+   $i: $i - 10;
+}

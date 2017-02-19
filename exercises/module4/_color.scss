@@ -1,0 +1,62 @@
+p {
+ &.color1 {
+  color: $red;
+  }
+}
+
+p {
+  &.color2 {
+  color: $blue;
+  }
+}
+
+p {
+  &.color3 {
+  color: $blue+$red;
+  }
+}
+
+
+// .table {
+//   font-size: 1.5rem;
+//   text-align: left;
+//   width: 100%;
+
+//   caption {
+//     font-size: 2.5rem;
+//     text-align: left;
+//     padding-bottom: 5px;
+//   }
+
+
+//   > thead,
+//   > tbody {
+//     > tr {
+
+//       background-color: $offwhite;
+
+//       &:hover {
+//         // background-color: complement($offwhite);
+//         // background-color: darken($offwhite, 20%);
+//         // background-color: lighten($offwhite,5%);
+//         background-color: saturate($offwhite,20%);
+//       }
+
+//       > th,
+//       > td {
+//         padding: 10px;
+//         border-bottom: 1px dotted $blue;
+//       }
+//     }
+//   }
+
+//    >thead >tr {
+//     background-color: $blue;
+//     color: $offwhite;
+//     &:hover {
+//       background-color: complement($blue);
+//     }
+
+//   }
+ 
+// }

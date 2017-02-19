@@ -1,0 +1,18 @@
+$first-width: 5px;
+$second-width: 5px;
+
+// @function adjust_width($n) {
+//    @return $n * $first-width + ($n - 1) * $second-width;
+// }
+
+// @function adjust_width($n:20) {
+//    @return $n * $first-width + ($n - 1) * $second-width;
+// }
+
+@function adjust_width($n:20,$m:30) {
+   @return $n * $first-width + ($m - 1) * $second-width;
+}
+
+@function adjust_width($n...) {
+   @return nth($n,1) * $first-width + (nth($n,2) - 1) * $second-width;
+}

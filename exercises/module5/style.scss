@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "navigation.scss";
+@import "base.scss";
+
+// $theme: "red";
+
+// .container {
+// 	background-color: if($theme == "green", $green, $blue);
+// } 	
+
+// .container {
+// 	@if $theme == "green" {
+// 		background-color: $green;
+// 	} @else {
+// 		background-color: $blue;
+// 	}
+// }
+
+// .container {
+// 	@if $theme == "green" {
+// 		background-color: $green;
+// 	} @else if $theme == "blue" {
+// 		background-color: $blue;
+// 	} @else {
+// 		background-color: $yellow;
+// 	}
+// }
+
+.container {
+	@for $i from 1 through 6 {
+		h#{$i} {
+			font-size: 10px * $i;
+		}
+	}
+}
