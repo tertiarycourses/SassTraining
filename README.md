@@ -1,5 +1,5 @@
 # Sass Essential Training
-## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Sass Essential Training](https://www.tertiarycourses.com.sg/sass-essential-training.html) course. 
 
